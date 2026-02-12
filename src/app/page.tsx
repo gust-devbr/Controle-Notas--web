@@ -99,7 +99,7 @@ export default function Home() {
 
           <Button
             type="submit"
-            className="w-83 md:w-40">
+            className="w-100 md:w-40">
             Adicionar
           </Button>
 
