@@ -14,7 +14,7 @@ export default function SubjectForm({ children }: ChildrenProps) {
 
             <hr className="mt-4 mb-3" />
 
-            <Card.Content className="flex flex-1 flex-row gap-2 justify-between py-2">
+            <Card.Content className="grid grid-cols-3 gap-2 justify-between py-2 md:flex md:flex-1 md:flex-row">
                 {children}
             </Card.Content>
         </Card>
